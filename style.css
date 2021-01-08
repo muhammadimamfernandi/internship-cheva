@@ -8,3 +8,22 @@ body {
 
     background: rgb(199, 239, 255) url(gambar/logo.jpg) no-repeat fixed center;
 }
+
+h1 {
+    color: #2e83f2;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#teks_panjang {
+    text-align: justify;
+    text-indent: 30px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    line-height: 20px;
+}
