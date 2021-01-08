@@ -14,11 +14,13 @@ h1 {
     color: #2e83f2;
     text-align: center;
     text-decoration: underline;
+    display: inline;
 }
 
 h2 {
     text-align: center;
     text-transform: uppercase;
+    display: inline;
 }
 
 #teks_pendek {
@@ -37,6 +39,13 @@ h2 {
     letter-spacing: 3px;
     word-spacing: 5px;
     line-height: 20px;
+}
+
+.menu {
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    text-decoration: none;
 }
 
 /* kondisi biasa */
