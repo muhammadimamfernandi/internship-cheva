@@ -7,6 +7,7 @@ body {
     */
 
     background: rgb(199, 239, 255) url(gambar/logo.jpg) no-repeat fixed center;
+    font-family: sans-serif;
 }
 
 h1 {
@@ -18,6 +19,11 @@ h1 {
 h2 {
     text-align: center;
     text-transform: uppercase;
+}
+
+#teks_pendek {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 #teks_panjang {
