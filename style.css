@@ -33,3 +33,25 @@ h2 {
     word-spacing: 5px;
     line-height: 20px;
 }
+
+/* kondisi biasa */
+.menu:link {
+    background: grey;
+    color: white;
+}
+
+/* kondisi setelah dikunjungi */
+.menu:visited {
+    background: grey;
+    color: white;
+}
+
+/* kondisi hover - mouse di atasnya */
+.menu:hover {
+    background: green;
+}
+
+/* sedang diklik */
+.menu:active {
+    background: white;
+}
