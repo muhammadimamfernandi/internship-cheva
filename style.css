@@ -24,6 +24,11 @@ h2 {
 #teks_pendek {
     font-size: 24px;
     font-weight: bold;
+    background: yellow;
+    width: 50%;
+    height: 200px;
+    max-width: 30%;
+    max-height: 100px;
 }
 
 #teks_panjang {
