@@ -10,6 +10,10 @@ body {
     font-family: sans-serif;
 }
 
+* {
+    /* margin: 0px; */
+}
+
 h1 {
     color: #2e83f2;
     text-align: center;
@@ -41,6 +45,11 @@ h2 {
     letter-spacing: 3px;
     word-spacing: 5px;
     line-height: 20px;
+}
+
+#menu_web {
+    /* margin: top right bottom left; */
+    margin: 10px 0 50px 0;
 }
 
 .menu {
