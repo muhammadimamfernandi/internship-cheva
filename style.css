@@ -92,7 +92,7 @@ h2 {
 /* 1. static, 2. relative, 3. absolute, 4. fixed */
 
 #menu_member {
-    position: relative;
+    position: absolute;
     left: 30px;
     top: 65px;
 }
