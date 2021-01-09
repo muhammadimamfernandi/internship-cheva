@@ -148,3 +148,29 @@ ul, ol, dl {
     clear: both;
     text-align: center;
 }
+
+/* halaman kontak */
+
+h1, h2 {
+    color: grey;
+}
+
+/*div a {
+    background: yellow;
+}
+*/
+
+/* langsung di bawah parentnya */
+div > a {
+    background: yellow;
+}
+
+/* setelah elemen */
+p + div {
+    background: greenyellow;
+}
+
+/* semua bagian yang ada di bawahnya */
+div ~ p {
+    background: red;
+}
