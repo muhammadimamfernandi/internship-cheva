@@ -137,7 +137,14 @@ table {
     clear: both;
 }
 
-#ul_1 {
+ul, ol, dl {
     float: left;
-    margin: 50px;
+    margin: 0px;
+    padding: 0px;
+    width: 33.33%;
+}
+
+#copyright {
+    clear: both;
+    text-align: center;
 }
