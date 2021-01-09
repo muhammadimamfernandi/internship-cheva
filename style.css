@@ -174,3 +174,30 @@ p + div {
 div ~ p {
     background: red;
 }
+
+/* 
+    HOVER
+    keadaan ketika mouse berada pada elemen tertentu
+    1. diri sendiri
+    2. elemen lain:
+        > langsung di dalam
+        + langsung setelah
+        (space) berada di suatu tempat (dalam container)
+*/
+
+h1:hover {
+    color: black;
+}
+
+h1:hover + h2 {
+    color: black;
+}
+
+/* 
+    FOCUS
+    keadaan ketika input diklik
+*/
+
+input:focus, textarea:focus {
+    background: yellow;
+}
