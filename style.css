@@ -54,9 +54,16 @@ h2 {
 
 .menu {
     display: inline-block;
-    height: 50px;
+    /* height: 50px;
     width: 100px;
+    */
     text-decoration: none;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    */
+    border: 2px solid black;
+    padding: 10px;
 }
 
 /* kondisi biasa */
