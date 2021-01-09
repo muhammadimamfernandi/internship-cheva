@@ -87,3 +87,12 @@ h2 {
 .menu:active {
     background: white;
 }
+
+/* mengatur posisi di css */
+/* 1. static, 2. relative, 3. absolute, 4. fixed */
+
+#menu_member {
+    position: relative;
+    left: 30px;
+    top: 65px;
+}
