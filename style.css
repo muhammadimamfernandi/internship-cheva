@@ -97,8 +97,27 @@ h2 {
     top: 65px;
 }
 
+#parent_h1 {
+    position: relative;
+    top: 100px;
+}
+
+/* posisi absolute tergantung parent element */
+#h1_member {
+    background: red;
+    position: absolute;
+    top: 140px;
+    left: 10px;
+}
+
+#parent_h2 {
+    position: relative;
+    top: 100px;
+}
+
 #h2_member {
     background: yellow;
     position: fixed;
+    top: 100px;
     left: 10px;
 }
